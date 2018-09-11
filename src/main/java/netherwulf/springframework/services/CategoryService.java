@@ -1,6 +1,6 @@
-package netherwulf.springfamework.services;
+package netherwulf.springframework.services;
 
-import netherwulf.springfamework.api.v1.model.CategoryDTO;
+import netherwulf.springframework.api.v1.model.CategoryDTO;
 
 import java.util.List;
 

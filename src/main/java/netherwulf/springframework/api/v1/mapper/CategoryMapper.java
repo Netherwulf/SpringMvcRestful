@@ -1,8 +1,8 @@
-package netherwulf.springfamework.api.v1.mapper;
+package netherwulf.springframework.api.v1.mapper;
 
 
-import netherwulf.springfamework.api.v1.model.CategoryDTO;
-import netherwulf.springfamework.domain.Category;
+import netherwulf.springframework.api.v1.model.CategoryDTO;
+import netherwulf.springframework.domain.Category;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 

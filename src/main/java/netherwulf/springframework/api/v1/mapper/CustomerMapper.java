@@ -1,8 +1,8 @@
-package netherwulf.springfamework.api.v1.mapper;
+package netherwulf.springframework.api.v1.mapper;
 
 
-import netherwulf.springfamework.api.v1.model.CustomerDTO;
-import netherwulf.springfamework.domain.Customer;
+import netherwulf.springframework.api.v1.model.CustomerDTO;
+import netherwulf.springframework.domain.Customer;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 

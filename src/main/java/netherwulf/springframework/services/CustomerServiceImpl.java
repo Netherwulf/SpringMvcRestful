@@ -1,8 +1,8 @@
-package netherwulf.springfamework.services;
+package netherwulf.springframework.services;
 
-import netherwulf.springfamework.api.v1.mapper.CustomerMapper;
-import netherwulf.springfamework.api.v1.model.CustomerDTO;
-import netherwulf.springfamework.repositories.CustomerRepository;
+import netherwulf.springframework.api.v1.mapper.CustomerMapper;
+import netherwulf.springframework.api.v1.model.CustomerDTO;
+import netherwulf.springframework.repositories.CustomerRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -36,7 +36,11 @@ public class CustomerServiceImpl implements CustomerService {
     @Override
     public CustomerDTO getCustomerById(Long id) {
         return customerRepository.findById(id)
-                .map(customerMapper::customerToCustomerDTO)
+                .map(customer -> {
+                    CustomerDTO customerDTO = customerMapper.customerToCustomerDTO(customer);
+                    customerDTO.setCustomerUrl("/api/v1/customers/" + customer.getId());
+                    return customerDTO;
+                })
                 .orElseThrow(RuntimeException::new);
     }
 }

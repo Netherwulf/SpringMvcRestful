@@ -1,4 +1,4 @@
-package netherwulf.springfamework.domain;
+package netherwulf.springframework.domain;
 
 import lombok.Data;
 

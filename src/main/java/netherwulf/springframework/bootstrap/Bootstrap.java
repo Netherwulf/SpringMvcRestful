@@ -1,9 +1,9 @@
-package netherwulf.springfamework.bootstrap;
+package netherwulf.springframework.bootstrap;
 
-import netherwulf.springfamework.domain.Category;
-import netherwulf.springfamework.domain.Customer;
-import netherwulf.springfamework.repositories.CategoryRepository;
-import netherwulf.springfamework.repositories.CustomerRepository;
+import netherwulf.springframework.domain.Category;
+import netherwulf.springframework.domain.Customer;
+import netherwulf.springframework.repositories.CategoryRepository;
+import netherwulf.springframework.repositories.CustomerRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 

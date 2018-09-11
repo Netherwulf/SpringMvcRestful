@@ -1,8 +1,8 @@
-package netherwulf.springfamework.services;
+package netherwulf.springframework.services;
 
-import netherwulf.springfamework.api.v1.mapper.CategoryMapper;
-import netherwulf.springfamework.api.v1.model.CategoryDTO;
-import netherwulf.springfamework.repositories.CategoryRepository;
+import netherwulf.springframework.api.v1.mapper.CategoryMapper;
+import netherwulf.springframework.api.v1.model.CategoryDTO;
+import netherwulf.springframework.repositories.CategoryRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

@@ -1,4 +1,4 @@
-package netherwulf.springfamework.api.v1.model;
+package netherwulf.springframework.api.v1.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

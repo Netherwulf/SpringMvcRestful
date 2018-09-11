@@ -1,6 +1,6 @@
-package netherwulf.springfamework.repositories;
+package netherwulf.springframework.repositories;
 
-import netherwulf.springfamework.domain.Category;
+import netherwulf.springframework.domain.Category;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 

@@ -1,8 +1,8 @@
-package netherwulf.springfamework.controllers.v1;
+package netherwulf.springframework.controllers.v1;
 
-import netherwulf.springfamework.api.v1.model.CategoryDTO;
-import netherwulf.springfamework.api.v1.model.CategoryListDTO;
-import netherwulf.springfamework.services.CategoryService;
+import netherwulf.springframework.api.v1.model.CategoryDTO;
+import netherwulf.springframework.api.v1.model.CategoryListDTO;
+import netherwulf.springframework.services.CategoryService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
