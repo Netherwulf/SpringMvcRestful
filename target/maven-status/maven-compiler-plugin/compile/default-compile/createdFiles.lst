@@ -1,0 +1,7 @@
+netherwulf\springfamework\api\v1\model\CategoryDTO.class
+netherwulf\springfamework\domain\Category.class
+netherwulf\springfamework\bootstrap\Bootstrap.class
+netherwulf\springfamework\repositories\CategoryRepository.class
+netherwulf\springfamework\api\v1\mapper\CategoryMapper.class
+netherwulf\springfamework\Spring5MvcRestApplication.class
+netherwulf\springfamework\api\v1\mapper\CategoryMapperImpl.class
