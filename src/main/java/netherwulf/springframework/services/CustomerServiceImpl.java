@@ -2,6 +2,7 @@ package netherwulf.springframework.services;
 
 import netherwulf.springframework.api.v1.mapper.CustomerMapper;
 import netherwulf.springframework.api.v1.model.CustomerDTO;
+import netherwulf.springframework.domain.Customer;
 import netherwulf.springframework.repositories.CustomerRepository;
 import org.springframework.stereotype.Service;
 
@@ -42,5 +43,18 @@ public class CustomerServiceImpl implements CustomerService {
                     return customerDTO;
                 })
                 .orElseThrow(RuntimeException::new);
+    }
+
+    @Override
+    public CustomerDTO createNewCustomer(CustomerDTO customerDTO) {
+        Customer customer = customerMapper.customerDtoToCustomer(customerDTO);
+
+        Customer savedCustomer = customerRepository.save(customer);
+
+        CustomerDTO returnDto = customerMapper.customerToCustomerDTO(savedCustomer);
+
+        returnDto.setCustomerUrl("/api/v1/customers/" + savedCustomer.getId());
+
+        return returnDto;
     }
 }
