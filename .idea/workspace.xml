@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57bb8f80-8009-4fb7-b4da-b851600bb0f8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/netherwulf/springframework/services/CustomerServiceImplIT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/controllers/v1/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/controllers/v1/CategoryController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/controllers/v1/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/controllers/v1/CustomerController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/services/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/services/CustomerService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/services/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/services/CustomerServiceImpl.java" afterDir="false" />
@@ -29,7 +32,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="java" value="98" />
+          <entry key="java" value="102" />
           <entry key="properties" value="3" />
           <entry key="xml" value="2" />
           <entry key="yml" value="1" />
@@ -38,7 +41,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="98" />
+          <entry key="JAVA" value="102" />
           <entry key="Properties" value="3" />
           <entry key="XML" value="2" />
           <entry key="YAML" value="1" />
@@ -46,14 +49,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4822" />
+          <entry key="java" value="5685" />
           <entry key="properties" value="9" />
           <entry key="xml" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4822" />
+          <entry key="JAVA" value="5685" />
           <entry key="Properties" value="9" />
           <entry key="XML" value="28" />
         </counts>
@@ -63,10 +66,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/controllers/v1/CategoryControllerTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/controllers/v1/CustomerControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="57" column="47" selection-start-line="57" selection-start-column="47" selection-end-line="57" selection-end-column="47" />
+            <state relative-caret-position="301">
+              <caret line="133" column="13" lean-forward="true" selection-start-line="133" selection-start-column="13" selection-end-line="133" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,10 +78,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/controllers/v1/CustomerControllerTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/services/CustomerServiceImplIT.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="122" column="26" selection-start-line="122" selection-start-column="26" selection-end-line="122" selection-end-column="26" />
+            <state relative-caret-position="-1139">
+              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/controllers/v1/CustomerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+            <state relative-caret-position="220">
+              <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,11 +104,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/controllers/v1/CategoryController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="41">
+              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/services/CategoryServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -113,44 +125,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/services/CustomerServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="59" column="42" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
+            <state relative-caret-position="241">
+              <caret line="31" column="47" lean-forward="true" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="99" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2844#2845#0" expanded="true" />
+                <element signature="e#2877#2878#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/services/CustomerServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="96" column="16" selection-start-line="96" selection-start-column="16" selection-end-line="96" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/services/CustomerService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" column="68" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/api/v1/model/CustomerDTO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+            <state relative-caret-position="501">
+              <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -203,13 +193,14 @@
         <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/api/v1/mapper/CustomerMapper.java" />
         <option value="$PROJECT_DIR$/src/test/java/netherwulf/springframework/controllers/v1/AbstractRestControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/api/v1/model/CustomerDTO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/controllers/v1/CategoryController.java" />
         <option value="$PROJECT_DIR$/src/test/java/netherwulf/springframework/controllers/v1/CategoryControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/netherwulf/springframework/services/CustomerServiceImplIT.java" />
         <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/services/CustomerService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/netherwulf/springframework/controllers/v1/CustomerControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/controllers/v1/CategoryController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/controllers/v1/CustomerController.java" />
         <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/services/CustomerServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/netherwulf/springframework/services/CustomerServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/netherwulf/springframework/controllers/v1/CustomerControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/controllers/v1/CustomerController.java" />
       </list>
     </option>
   </component>
@@ -439,7 +430,7 @@
     <property name="SearchEverywhereHistoryKey" value="plugin&#9;ACTION&#9;WelcomeScreen.Plugins" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536790974579" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536795163750" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -477,22 +468,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Spring5MvcRestApplication">
-    <configuration name="CategoryControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.All in spring5-mvc-rest">
+    <configuration name="All in spring5-mvc-rest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring5-mvc-rest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="netherwulf.springframework.controllers.v1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="netherwulf.springframework.controllers.v1" />
-      <option name="MAIN_CLASS_NAME" value="netherwulf.springframework.controllers.v1.CategoryControllerTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomerControllerTest.testDeleteCustomer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring5-mvc-rest" />
       <extension name="coverage">
         <pattern>
@@ -502,27 +487,27 @@
       </extension>
       <option name="PACKAGE_NAME" value="netherwulf.springframework.controllers.v1" />
       <option name="MAIN_CLASS_NAME" value="netherwulf.springframework.controllers.v1.CustomerControllerTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CustomerControllerTest.testUpdateCustomer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring5-mvc-rest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="netherwulf.springframework.controllers.v1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="netherwulf.springframework.controllers.v1" />
-      <option name="MAIN_CLASS_NAME" value="netherwulf.springframework.controllers.v1.CustomerControllerTest" />
-      <option name="METHOD_NAME" value="testUpdateCustomer" />
+      <option name="METHOD_NAME" value="testDeleteCustomer" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerServiceTest.saveCustomerByDTO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomerServiceImplIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5-mvc-rest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="netherwulf.springframework.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="netherwulf.springframework.services" />
+      <option name="MAIN_CLASS_NAME" value="netherwulf.springframework.services.CustomerServiceImplIT" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring5-mvc-rest" />
       <extension name="coverage">
         <pattern>
@@ -532,22 +517,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="netherwulf.springframework.services" />
       <option name="MAIN_CLASS_NAME" value="netherwulf.springframework.services.CustomerServiceTest" />
-      <option name="METHOD_NAME" value="saveCustomerByDTO" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="netherwulf.springframework in spring5-mvc-rest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomerServiceTest.deleteCustomerById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring5-mvc-rest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="netherwulf.springframework.*" />
+          <option name="PATTERN" value="netherwulf.springframework.services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="netherwulf.springframework" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="PACKAGE_NAME" value="netherwulf.springframework.services" />
+      <option name="MAIN_CLASS_NAME" value="netherwulf.springframework.services.CustomerServiceTest" />
+      <option name="METHOD_NAME" value="deleteCustomerById" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -562,19 +547,19 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.Spring5MvcRestApplication" />
-      <item itemvalue="JUnit.CustomerControllerTest" />
-      <item itemvalue="JUnit.CategoryControllerTest" />
-      <item itemvalue="JUnit.netherwulf.springframework in spring5-mvc-rest" />
-      <item itemvalue="JUnit.CustomerServiceTest.saveCustomerByDTO" />
-      <item itemvalue="JUnit.CustomerControllerTest.testUpdateCustomer" />
+      <item itemvalue="JUnit.CustomerServiceImplIT" />
+      <item itemvalue="JUnit.CustomerServiceTest.deleteCustomerById" />
+      <item itemvalue="JUnit.CustomerControllerTest.testDeleteCustomer" />
+      <item itemvalue="JUnit.CustomerServiceTest" />
+      <item itemvalue="JUnit.All in spring5-mvc-rest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CustomerControllerTest.testUpdateCustomer" />
-        <item itemvalue="JUnit.CustomerServiceTest.saveCustomerByDTO" />
-        <item itemvalue="JUnit.netherwulf.springframework in spring5-mvc-rest" />
-        <item itemvalue="JUnit.CategoryControllerTest" />
-        <item itemvalue="JUnit.CustomerControllerTest" />
+        <item itemvalue="JUnit.All in spring5-mvc-rest" />
+        <item itemvalue="JUnit.CustomerServiceTest" />
+        <item itemvalue="JUnit.CustomerControllerTest.testDeleteCustomer" />
+        <item itemvalue="JUnit.CustomerServiceTest.deleteCustomerById" />
+        <item itemvalue="JUnit.CustomerServiceImplIT" />
       </list>
     </recent_temporary>
   </component>
@@ -590,29 +575,11 @@
       <updated>1536535737983</updated>
       <workItem from="1536535740905" duration="677000" />
       <workItem from="1536699886876" duration="10274000" />
-      <workItem from="1536746339974" duration="6492000" />
+      <workItem from="1536746339974" duration="10357000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CustomerControllerTest - 2018.09.12 at 23h 37m 06s.xml">
-      <configuration name="CustomerControllerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CustomerControllerTest - 2018.09.12 at 23h 37m 30s.xml">
-      <configuration name="CustomerControllerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CustomerControllerTest_createNewCustomer - 2018.09.12 at 23h 46m 28s.xml">
-      <configuration name="CustomerControllerTest.createNewCustomer" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CustomerControllerTest_createNewCustomer - 2018.09.12 at 23h 46m 54s.xml">
-      <configuration name="CustomerControllerTest.createNewCustomer" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CustomerControllerTest - 2018.09.12 at 23h 50m 24s.xml">
-      <configuration name="CustomerControllerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CategoryControllerTest - 2018.09.12 at 23h 50m 35s.xml">
-      <configuration name="CategoryControllerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="netherwulf_springframework_in_spring5-mvc-rest - 2018.09.12 at 23h 57m 59s.xml">
       <configuration name="netherwulf.springframework in spring5-mvc-rest" configurationId="JUnit" />
     </history-entry>
@@ -625,9 +592,27 @@
     <history-entry file="CustomerServiceTest_saveCustomerByDTO - 2018.09.13 at 00h 11m 34s.xml">
       <configuration name="CustomerServiceTest.saveCustomerByDTO" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CustomerControllerTest_testUpdateCustomer - 2018.09.13 at 00h 21m 32s.xml">
+      <configuration name="CustomerControllerTest.testUpdateCustomer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerControllerTest_testUpdateCustomer - 2018.09.13 at 00h 22m 00s.xml">
+      <configuration name="CustomerControllerTest.testUpdateCustomer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerServiceImplIT - 2018.09.13 at 00h 58m 40s.xml">
+      <configuration name="CustomerServiceImplIT" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerServiceImplIT - 2018.09.13 at 01h 00m 10s.xml">
+      <configuration name="CustomerServiceImplIT" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerServiceTest_deleteCustomerById - 2018.09.13 at 01h 15m 06s.xml">
+      <configuration name="CustomerServiceTest.deleteCustomerById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerControllerTest_testDeleteCustomer - 2018.09.13 at 01h 20m 05s.xml">
+      <configuration name="CustomerControllerTest.testDeleteCustomer" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19316000" />
+    <option name="totallyTimeSpent" value="23181000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -644,8 +629,8 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
       <window_info anchor="bottom" id="Messages" order="2" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.3394794" />
-      <window_info anchor="bottom" id="Debug" order="4" visible="true" weight="0.3991323" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.3394794" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
@@ -782,23 +767,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/services/CategoryServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="33" column="64" selection-start-line="33" selection-start-column="64" selection-end-line="33" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/domain/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/domain/Category.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -853,30 +821,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/controllers/v1/CategoryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/controllers/v1/CategoryControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="57" column="47" selection-start-line="57" selection-start-column="47" selection-end-line="57" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/services/CustomerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="68" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -890,6 +838,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/domain/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/repositories/CustomerRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -900,20 +858,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/services/CustomerServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/services/CustomerService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="59" column="42" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/services/CustomerServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="96" column="16" selection-start-line="96" selection-start-column="16" selection-end-line="96" selection-end-column="16" />
+        <state relative-caret-position="360">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -922,8 +870,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/controllers/v1/CustomerControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="122" column="26" selection-start-line="122" selection-start-column="26" selection-end-line="122" selection-end-column="26" />
+        <state relative-caret-position="301">
+          <caret line="133" column="13" lean-forward="true" selection-start-line="133" selection-start-column="13" selection-end-line="133" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -932,8 +880,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/controllers/v1/CustomerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+        <state relative-caret-position="220">
+          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/controllers/v1/CategoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/services/CategoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/services/CustomerServiceImplIT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1139">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/services/CustomerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="31" column="47" lean-forward="true" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="99" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2844#2845#0" expanded="true" />
+            <element signature="e#2877#2878#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/services/CustomerServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

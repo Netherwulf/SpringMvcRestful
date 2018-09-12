@@ -2,6 +2,7 @@ package netherwulf.springframework.services;
 
 import netherwulf.springframework.api.v1.mapper.CustomerMapper;
 import netherwulf.springframework.api.v1.model.CustomerDTO;
+import netherwulf.springframework.controllers.v1.CustomerController;
 import netherwulf.springframework.domain.Customer;
 import netherwulf.springframework.repositories.CustomerRepository;
 import org.springframework.stereotype.Service;
@@ -28,7 +29,7 @@ public class CustomerServiceImpl implements CustomerService {
                 .stream()
                 .map(customer -> {
                     CustomerDTO customerDTO = customerMapper.customerToCustomerDTO(customer);
-                    customerDTO.setCustomerUrl("/api/v1/customers/" + customer.getId());
+                    customerDTO.setCustomerUrl(CustomerController.BASE_URL + "/" + customer.getId());
                     return customerDTO;
                 })
                 .collect(Collectors.toList());
@@ -39,7 +40,7 @@ public class CustomerServiceImpl implements CustomerService {
         return customerRepository.findById(id)
                 .map(customer -> {
                     CustomerDTO customerDTO = customerMapper.customerToCustomerDTO(customer);
-                    customerDTO.setCustomerUrl("/api/v1/customers/" + customer.getId());
+                    customerDTO.setCustomerUrl(CustomerController.BASE_URL + "/" + customer.getId());
                     return customerDTO;
                 })
                 .orElseThrow(RuntimeException::new);
@@ -60,15 +61,35 @@ public class CustomerServiceImpl implements CustomerService {
         return saveAndReturnDTO(customer);
     }
 
+    @Override
+    public CustomerDTO patchCustomer(Long id, CustomerDTO customerDTO) {
+        return customerRepository.findById(id)
+                .map( customer -> {
+                        if(customerDTO.getFirstName() != null) {
+                            customer.setFirstName(customerDTO.getFirstName());
+                        }
+                        if(customerDTO.getLastName() != null) {
+                            customer.setLastName(customerDTO.getLastName());
+                        }
+
+                        return saveAndReturnDTO(customer);
+                })
+                .orElseThrow(RuntimeException::new);
+
+    }
+
+    @Override
+    public void deleteCustomerById(Long id) {
+        customerRepository.deleteById(id);
+    }
+
     private CustomerDTO saveAndReturnDTO(Customer customer) {
         Customer savedCustomer = customerRepository.save(customer);
 
         CustomerDTO returnDto = customerMapper.customerToCustomerDTO(savedCustomer);
 
-        returnDto.setCustomerUrl("/api/v1/customers/" + savedCustomer.getId());
+        returnDto.setCustomerUrl(CustomerController.BASE_URL + "/" + savedCustomer.getId());
 
         return returnDto;
     }
-
-
 }

@@ -2,6 +2,7 @@ package netherwulf.springframework.services;
 
 import netherwulf.springframework.api.v1.mapper.CustomerMapper;
 import netherwulf.springframework.api.v1.model.CustomerDTO;
+import netherwulf.springframework.controllers.v1.CustomerController;
 import netherwulf.springframework.domain.Customer;
 import netherwulf.springframework.repositories.CustomerRepository;
 import org.junit.Before;
@@ -15,6 +16,8 @@ import java.util.List;
 import static org.junit.Assert.assertEquals;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.anyLong;
+import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
 public class CustomerServiceTest {
@@ -36,12 +39,12 @@ public class CustomerServiceTest {
 
         //given
         Customer customer1 = new Customer();
-        customer1.setId(1l);
+        customer1.setId(1L);
         customer1.setFirstName("Michael");
         customer1.setLastName("Weston");
 
         Customer customer2 = new Customer();
-        customer2.setId(2l);
+        customer2.setId(2L);
         customer2.setFirstName("Sam");
         customer2.setLastName("Axe");
 
@@ -90,7 +93,7 @@ public class CustomerServiceTest {
 
         //then
         assertEquals(customerDTO.getFirstName(), savedDto.getFirstName());
-        assertEquals("/api/v1/customers/1", savedDto.getCustomerUrl());
+        assertEquals(CustomerController.BASE_URL + "/" + savedCustomer.getId(), savedDto.getCustomerUrl());
     }
 
     @Test
@@ -112,6 +115,16 @@ public class CustomerServiceTest {
 
         //then
         assertEquals(customerDTO.getFirstName(), savedDto.getFirstName());
-        assertEquals("/api/v1/customers/1", savedDto.getCustomerUrl());
+        assertEquals(CustomerController.BASE_URL + "/" + savedCustomer.getId(), savedDto.getCustomerUrl());
+    }
+
+    @Test
+    public void deleteCustomerById() throws Exception {
+
+        Long id = 1L;
+
+        customerService.deleteCustomerById(id);
+
+        verify(customerRepository, times(1)).deleteById(anyLong());
     }
 }
