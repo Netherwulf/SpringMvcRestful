@@ -2,8 +2,10 @@ package netherwulf.springframework.bootstrap;
 
 import netherwulf.springframework.domain.Category;
 import netherwulf.springframework.domain.Customer;
+import netherwulf.springframework.domain.Vendor;
 import netherwulf.springframework.repositories.CategoryRepository;
 import netherwulf.springframework.repositories.CustomerRepository;
+import netherwulf.springframework.repositories.VendorRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
@@ -12,19 +14,22 @@ public class Bootstrap implements CommandLineRunner {
 
     private CategoryRepository categoryRepository;
     private CustomerRepository customerRepository;
+    private VendorRepository vendorRepository;
 
-    public Bootstrap(CategoryRepository categoryRepository, CustomerRepository customerRepository) {
+    public Bootstrap(CategoryRepository categoryRepository, CustomerRepository customerRepository, VendorRepository vendorRepository) {
         this.categoryRepository = categoryRepository;
         this.customerRepository = customerRepository;
+        this.vendorRepository = vendorRepository;
     }
 
     @Override
     public void run(String... args) throws Exception {
         loadCategories();
         loadCustomers();
+        loadVendors();
     }
 
-    public void loadCategories() {
+    private void loadCategories() {
         Category fruits = new Category();
         fruits.setName("Fruits");
 
@@ -77,5 +82,31 @@ public class Bootstrap implements CommandLineRunner {
         customerRepository.save(aliceEastman);
 
         System.out.println("Customers loaded = " + customerRepository.count());
+    }
+
+    private void loadVendors() {
+
+        Vendor andrewGolara = new Vendor();
+        andrewGolara.setName("Andrew Golara");
+
+        Vendor tommyCash = new Vendor();
+        tommyCash.setName("Tommy Cash");
+
+        Vendor butterBean = new Vendor();
+        butterBean.setName("Butter Bean");
+
+        Vendor sellIt = new Vendor();
+        sellIt.setName("Sell IT");
+
+        Vendor orangeShop = new Vendor();
+        orangeShop.setName("Orange Shop");
+
+        vendorRepository.save(andrewGolara);
+        vendorRepository.save(tommyCash);
+        vendorRepository.save(butterBean);
+        vendorRepository.save(sellIt);
+        vendorRepository.save(orangeShop);
+
+        System.out.println("Vendors loaded = " + vendorRepository.count());
     }
 }

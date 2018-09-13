@@ -1,15 +1,17 @@
 package netherwulf.springframework.api.v1.model;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.List;
-
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class CategoryListDTO {
+public class VendorDTO {
 
-    List<CategoryDTO> categories;
+    private String name;
+
+    @JsonProperty("vendor_url")
+    private String vendorUrl;
 }
