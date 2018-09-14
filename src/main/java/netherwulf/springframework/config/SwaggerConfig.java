@@ -6,9 +6,13 @@ import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport;
 import springfox.documentation.builders.PathSelectors;
 import springfox.documentation.builders.RequestHandlerSelectors;
+import springfox.documentation.service.ApiInfo;
+import springfox.documentation.service.Contact;
 import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
+
+import java.util.ArrayList;
 
 @EnableSwagger2
 @Configuration
@@ -21,7 +25,23 @@ public class SwaggerConfig { //extends WebMvcConfigurationSupport {
                 .apis(RequestHandlerSelectors.any())
                 .paths(PathSelectors.any())
                 .build()
-                .pathMapping("/");
+                .pathMapping("/")
+                .apiInfo(metaData());
+    }
+
+    private ApiInfo metaData() {
+        Contact contact = new Contact("Kamil Kanclerz", "https://github.com/Netherwulf", "k.kanclerz4@.gmail.com");
+
+        return new ApiInfo(
+                "Spring MVC RESTful API",
+                "RESTful API written in Spring 5",
+                "1.0",
+                "Terms of Service: something",
+                contact,
+                "MIT License",
+                "https://opensource.org/licenses/MIT",
+                new ArrayList<>()
+        );
     }
 
     // Required when we don't use Spring Boot
