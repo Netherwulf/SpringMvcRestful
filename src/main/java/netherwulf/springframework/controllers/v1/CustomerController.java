@@ -1,5 +1,7 @@
 package netherwulf.springframework.controllers.v1;
 
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import netherwulf.springframework.api.v1.model.CustomerDTO;
 import netherwulf.springframework.api.v1.model.CustomerListDTO;
 import netherwulf.springframework.services.CustomerService;
@@ -8,6 +10,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
+@Api(description = "Controller class for data about Customers")
 @RestController
 @RequestMapping(CustomerController.BASE_URL)
 public class CustomerController {
@@ -20,6 +23,7 @@ public class CustomerController {
         this.customerService = customerService;
     }
 
+    @ApiOperation(value = "This will get list of Customers", notes = "These are some notes about it")
     @GetMapping
     @ResponseStatus(HttpStatus.OK)
     public CustomerListDTO getAllCustomers() {

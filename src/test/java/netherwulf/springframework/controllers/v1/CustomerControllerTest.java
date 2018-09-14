@@ -67,7 +67,6 @@ public class CustomerControllerTest extends AbstractRestControllerTest {
 
         //given
         CustomerDTO customer = new CustomerDTO();
-        customer.setId(1L);
         customer.setFirstName("Michael");
         customer.setLastName("Weston");
         customer.setCustomerUrl("/api/v1/customers/1");
