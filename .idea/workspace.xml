@@ -2,21 +2,78 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57bb8f80-8009-4fb7-b4da-b851600bb0f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_9_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_9_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_unknown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringMvcRestful.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rest-model/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rest-model/rest-model.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring5-mvc-rest-app/spring5-mvc-rest-app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_unknown.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvcRestfulApp/SpringMvcRestfulApp.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvcRestfulApp/src/main/java/netherwulf/springframework/Spring5MvcRestApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvcRestfulApp/src/main/java/netherwulf/springframework/api/v1/mapper/CategoryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvcRestfulApp/src/main/java/netherwulf/springframework/api/v1/mapper/CustomerMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvcRestfulApp/src/main/java/netherwulf/springframework/api/v1/mapper/VendorMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvcRestfulApp/src/main/java/netherwulf/springframework/api/v1/model/CategoryDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvcRestfulApp/src/main/java/netherwulf/springframework/api/v1/model/CategoryListDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvcRestfulApp/src/main/java/netherwulf/springframework/api/v1/model/CustomerDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvcRestfulApp/src/main/java/netherwulf/springframework/api/v1/model/CustomerListDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvcRestfulApp/src/main/java/netherwulf/springframework/api/v1/model/VendorDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvcRestfulApp/src/main/java/netherwulf/springframework/api/v1/model/VendorListDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvcRestfulApp/src/main/java/netherwulf/springframework/bootstrap/Bootstrap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvcRestfulApp/src/main/java/netherwulf/springframework/config/SwaggerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvcRestfulApp/src/main/java/netherwulf/springframework/controllers/RestResponseEntityExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvcRestfulApp/src/main/java/netherwulf/springframework/controllers/v1/CategoryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvcRestfulApp/src/main/java/netherwulf/springframework/controllers/v1/CustomerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvcRestfulApp/src/main/java/netherwulf/springframework/controllers/v1/VendorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvcRestfulApp/src/main/java/netherwulf/springframework/domain/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvcRestfulApp/src/main/java/netherwulf/springframework/domain/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvcRestfulApp/src/main/java/netherwulf/springframework/domain/Vendor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvcRestfulApp/src/main/java/netherwulf/springframework/repositories/CategoryRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvcRestfulApp/src/main/java/netherwulf/springframework/repositories/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvcRestfulApp/src/main/java/netherwulf/springframework/repositories/VendorRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvcRestfulApp/src/main/java/netherwulf/springframework/services/CategoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvcRestfulApp/src/main/java/netherwulf/springframework/services/CategoryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvcRestfulApp/src/main/java/netherwulf/springframework/services/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvcRestfulApp/src/main/java/netherwulf/springframework/services/CustomerServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvcRestfulApp/src/main/java/netherwulf/springframework/services/ResourceNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvcRestfulApp/src/main/java/netherwulf/springframework/services/VendorService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvcRestfulApp/src/main/java/netherwulf/springframework/services/VendorServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvcRestfulApp/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvcRestfulApp/src/test/java/netherwulf/springframework/api/v1/mapper/CategoryMapperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvcRestfulApp/src/test/java/netherwulf/springframework/api/v1/mapper/CustomerMapperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvcRestfulApp/src/test/java/netherwulf/springframework/api/v1/mapper/VendorMapperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvcRestfulApp/src/test/java/netherwulf/springframework/controllers/v1/AbstractRestControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvcRestfulApp/src/test/java/netherwulf/springframework/controllers/v1/CategoryControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvcRestfulApp/src/test/java/netherwulf/springframework/controllers/v1/CustomerControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvcRestfulApp/src/test/java/netherwulf/springframework/controllers/v1/VendorControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvcRestfulApp/src/test/java/netherwulf/springframework/services/CategoryServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvcRestfulApp/src/test/java/netherwulf/springframework/services/CustomerServiceImplIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvcRestfulApp/src/test/java/netherwulf/springframework/services/CustomerServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvcRestfulApp/src/test/java/netherwulf/springframework/services/VendorServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvcRestfulApp/src/test/java/netherwulf/springframework/spring5mvcrest/Spring5MvcRestApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvcRestfulApp/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvcRestfulApp/target/generated-sources/annotations/netherwulf/springframework/api/v1/mapper/CategoryMapperImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvcRestfulApp/target/generated-sources/annotations/netherwulf/springframework/api/v1/mapper/CustomerMapperImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvcRestfulApp/target/generated-sources/annotations/netherwulf/springframework/api/v1/mapper/VendorMapperImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvcRestfulApp/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring5-mvc-rest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring5-mvc-rest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/netherwulf/springframework/controllers/v1/CategoryControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/netherwulf/springframework/controllers/v1/CategoryControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/netherwulf/springframework/controllers/v1/CustomerControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/netherwulf/springframework/controllers/v1/CustomerControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/netherwulf/springframework/api/v1/mapper/CategoryMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/netherwulf/springframework/api/v1/mapper/CategoryMapperImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/netherwulf/springframework/api/v1/mapper/CustomerMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/netherwulf/springframework/api/v1/mapper/CustomerMapperImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/netherwulf/springframework/api/v1/mapper/VendorMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/netherwulf/springframework/api/v1/mapper/VendorMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/rest-model/target/" />
+    <ignored path="$PROJECT_DIR$/SpringMvcRestfulApp/target/" />
+    <ignored path="$PROJECT_DIR$/spring5-mvc-rest-app/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,161 +84,128 @@
     <session id="1962697981">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.23" value="1" />
-          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.29" value="2" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.31" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="java" value="157" />
-          <entry key="properties" value="4" />
-          <entry key="xml" value="3" />
-          <entry key="yml" value="2" />
+          <entry key="iml" value="3" />
+          <entry key="java" value="213" />
+          <entry key="mvnw" value="1" />
+          <entry key="properties" value="5" />
+          <entry key="xml" value="11" />
+          <entry key="xsd" value="4" />
+          <entry key="yml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="157" />
-          <entry key="Properties" value="4" />
-          <entry key="XML" value="3" />
-          <entry key="YAML" value="2" />
+          <entry key="IDEA_MODULE" value="3" />
+          <entry key="JAVA" value="213" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Properties" value="5" />
+          <entry key="XML" value="15" />
+          <entry key="YAML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="10702" />
+          <entry key="java" value="10845" />
           <entry key="properties" value="11" />
-          <entry key="xml" value="233" />
+          <entry key="xml" value="456" />
+          <entry key="xsd" value="27" />
+          <entry key="yml" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="10702" />
+          <entry key="JAVA" value="10845" />
           <entry key="Properties" value="11" />
-          <entry key="XML" value="233" />
+          <entry key="XML" value="483" />
+          <entry key="YAML" value="35" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/spring5-mvc-rest-app/src/test/java/netherwulf/springframework/controllers/v1/VendorControllerTest.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring5-mvc-rest-app/src/test/java/netherwulf/springframework/services/CategoryServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring5-mvc-rest-app/src/test/java/netherwulf/springframework/services/CustomerServiceImplIT.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="11" selection-start-column="11" selection-end-column="11" />
+            <state relative-caret-position="80">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/controllers/v1/CustomerController.java">
+        <entry file="file://$PROJECT_DIR$/spring5-mvc-rest-app/src/test/java/netherwulf/springframework/services/CustomerServiceImplTest.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring5-mvc-rest-app/src/test/java/netherwulf/springframework/services/VendorServiceImplTest.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring5-mvc-rest-app/src/test/java/netherwulf/springframework/spring5mvcrest/Spring5MvcRestApplicationTests.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/Spring5MvcRestApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="25" column="101" selection-start-line="25" selection-start-column="101" selection-end-line="25" selection-end-column="101" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1931#1932#0" expanded="true" />
-                <element signature="e#1985#1986#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="100">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/controllers/v1/VendorController.java">
+        <entry file="file://$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/services/CategoryService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="950">
-              <caret line="58" column="108" selection-start-line="58" selection-start-column="108" selection-end-line="58" selection-end-column="108" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#729#730#0" expanded="true" />
-                <element signature="e#781#782#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/api/v1/model/VendorDTO.java">
+        <entry file="file://$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/config/SwaggerConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="13" column="67" selection-start-line="13" selection-start-column="67" selection-end-line="13" selection-end-column="67" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/api/v1/model/CustomerDTO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="16" column="87" selection-start-line="16" selection-start-column="87" selection-end-line="16" selection-end-column="87" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/api/v1/mapper/CustomerMapperTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/controllers/v1/CustomerControllerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="125" column="51" selection-start-line="125" selection-start-column="51" selection-end-line="125" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="454">
+              <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
+        <entry file="file://$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/services/CustomerService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-510" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="77" column="42" selection-start-line="77" selection-start-column="42" selection-end-line="77" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/controllers/v1/CategoryControllerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="77" column="51" selection-start-line="77" selection-start-column="51" selection-end-line="77" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -197,51 +221,23 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>VendorDTO</find>
+      <find>Vendor</find>
+      <find>lombok</find>
+      <find>guru</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>netherwulf</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springfamework/services/CategoryService.java" />
-        <option value="$PROJECT_DIR$/src/test/java/netherwulf/springfamework/services/CategoryServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springfamework/repositories/CategoryRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springfamework/services/CategoryServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/java/netherwulf/springfamework/controllers/v1/CategoryControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springfamework/api/v1/model/CategoryListDTO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springfamework/controllers/v1/CategoryController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springfamework/repositories/CustomerRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springfamework/api/v1/model/CustomerListDTO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springfamework/api/v1/model/CategoryDTO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springfamework/bootstrap/Bootstrap.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springfamework/api/v1/mapper/CustomerMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springfamework/services/CustomerService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springfamework/domain/Customer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springfamework/api/v1/model/CustomerDTO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springfamework/services/CustomerServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/repositories/CustomerRepository.java" />
-        <option value="$PROJECT_DIR$/src/test/java/netherwulf/springframework/controllers/v1/CustomerController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/api/v1/model/CustomerListDTO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/domain/Customer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/api/v1/mapper/CustomerMapper.java" />
-        <option value="$PROJECT_DIR$/src/test/java/netherwulf/springframework/controllers/v1/AbstractRestControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/services/CustomerService.java" />
-        <option value="$PROJECT_DIR$/src/test/java/netherwulf/springframework/services/CustomerServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/services/ResourceNotFoundException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/controllers/RestResponseEntityExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/services/CustomerServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/controllers/v1/CategoryController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/domain/Vendor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/api/v1/mapper/VendorMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/repositories/VendorRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/api/v1/model/VendorListDTO.java" />
-        <option value="$PROJECT_DIR$/src/test/java/netherwulf/springframework/services/CustomerServiceImplIT.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/bootstrap/Bootstrap.java" />
-        <option value="$PROJECT_DIR$/src/test/java/netherwulf/springframework/api/v1/mapper/VendorMapperTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/api/v1/model/CategoryDTO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/api/v1/model/CategoryListDTO.java" />
-        <option value="$PROJECT_DIR$/src/test/java/netherwulf/springframework/controllers/v1/VendorControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/services/VendorServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/services/VendorService.java" />
         <option value="$PROJECT_DIR$/src/test/java/netherwulf/springframework/services/VendorServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/config/SwaggerConfig.java" />
@@ -251,9 +247,48 @@
         <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/api/v1/model/CustomerDTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/controllers/v1/VendorController.java" />
         <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/api/v1/model/VendorDTO.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/netherwulf/springframework/controllers/v1/CategoryControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/netherwulf/springframework/controllers/v1/CustomerControllerTest.java" />
+        <option value="$PROJECT_DIR$/rest-model/src/main/resources/customer.xsd" />
+        <option value="$PROJECT_DIR$/rest-model/src/main/resources/xsd/vendor.xsd" />
+        <option value="$PROJECT_DIR$/SpringMvcRestfulApp/src/main/java/netherwulf/springframework/services/VendorService.java" />
+        <option value="$PROJECT_DIR$/SpringMvcRestfulApp/src/main/java/netherwulf/springframework/api/v1/mapper/VendorMapper.java" />
+        <option value="$PROJECT_DIR$/SpringMvcRestfulApp/src/main/java/netherwulf/springframework/services/VendorServiceImpl.java" />
+        <option value="$PROJECT_DIR$/SpringMvcRestfulApp/src/main/java/netherwulf/springframework/controllers/v1/VendorController.java" />
+        <option value="$PROJECT_DIR$/SpringMvcRestfulApp/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringMvcRestfulApp/src/main/java/netherwulf/springframework/services/CategoryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/.circleci/config.yml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/rest-model/pom.xml" />
+        <option value="$PROJECT_DIR$/spring5-mvc-rest-app/pom.xml" />
+        <option value="$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/api/v1/mapper/CategoryMapper.java" />
+        <option value="$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/api/v1/mapper/CustomerMapper.java" />
+        <option value="$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/api/v1/mapper/VendorMapper.java" />
+        <option value="$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/api/v1/model/CategoryDTO.java" />
+        <option value="$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/api/v1/model/CatorgoryListDTO.java" />
+        <option value="$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/api/v1/model/VendorDTO.java" />
+        <option value="$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/api/v1/model/VendorListDTO.java" />
+        <option value="$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/bootstrap/Bootstrap.java" />
+        <option value="$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/controllers/RestResponseEntityExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/controllers/v1/CategoryController.java" />
+        <option value="$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/controllers/v1/CustomerController.java" />
+        <option value="$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/controllers/v1/VendorController.java" />
+        <option value="$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/domain/Category.java" />
+        <option value="$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/domain/Customer.java" />
+        <option value="$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/domain/Vendor.java" />
+        <option value="$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/repositories/CategoryRepository.java" />
+        <option value="$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/repositories/CustomerRepository.java" />
+        <option value="$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/repositories/VendorRepository.java" />
+        <option value="$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/services/CategoryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/services/CustomerService.java" />
+        <option value="$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/services/CustomerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/services/ResourceNotFoundException.java" />
+        <option value="$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/services/VendorService.java" />
+        <option value="$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/services/VendorServiceImpl.java" />
+        <option value="$PROJECT_DIR$/spring5-mvc-rest-app/src/test/java/netherwulf/springframework/controllers/v1/AbstractRestControllerTest.java" />
+        <option value="$PROJECT_DIR$/spring5-mvc-rest-app/src/test/java/netherwulf/springframework/services/CustomerServiceImplIT.java" />
+        <option value="$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/services/CategoryService.java" />
+        <option value="$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/config/SwaggerConfig.java" />
       </list>
     </option>
   </component>
@@ -268,11 +303,20 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="SpringMvcRestful" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="spring5-mvc-model" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="SpringMvcRestful" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="spring5-mvc-model" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring5-mvc-rest-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring5-mvc-rest-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
@@ -290,7 +334,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -306,70 +349,25 @@
             <path>
               <item name="spring5-mvc-rest" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringMvcRestful" type="462c0819:PsiDirectoryNode" />
+              <item name="rest-model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring5-mvc-rest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMvcRestful" type="462c0819:PsiDirectoryNode" />
+              <item name="rest-model" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring5-mvc-rest" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringMvcRestful" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring5-mvc-rest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMvcRestful" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring5-mvc-rest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMvcRestful" type="462c0819:PsiDirectoryNode" />
+              <item name="rest-model" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring5-mvc-rest" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringMvcRestful" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="v1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring5-mvc-rest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMvcRestful" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="v1" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring5-mvc-rest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMvcRestful" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring5-mvc-rest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMvcRestful" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="v1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring5-mvc-rest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMvcRestful" type="462c0819:PsiDirectoryNode" />
+              <item name="rest-model" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -377,15 +375,87 @@
             <path>
               <item name="spring5-mvc-rest" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringMvcRestful" type="462c0819:PsiDirectoryNode" />
+              <item name="rest-model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="xsd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring5-mvc-rest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMvcRestful" type="462c0819:PsiDirectoryNode" />
+              <item name="spring5-mvc-rest-app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring5-mvc-rest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMvcRestful" type="462c0819:PsiDirectoryNode" />
+              <item name="spring5-mvc-rest-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring5-mvc-rest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMvcRestful" type="462c0819:PsiDirectoryNode" />
+              <item name="spring5-mvc-rest-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring5-mvc-rest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMvcRestful" type="462c0819:PsiDirectoryNode" />
+              <item name="spring5-mvc-rest-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring5-mvc-rest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMvcRestful" type="462c0819:PsiDirectoryNode" />
+              <item name="spring5-mvc-rest-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring5-mvc-rest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMvcRestful" type="462c0819:PsiDirectoryNode" />
+              <item name="spring5-mvc-rest-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring5-mvc-rest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMvcRestful" type="462c0819:PsiDirectoryNode" />
+              <item name="spring5-mvc-rest-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring5-mvc-rest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMvcRestful" type="462c0819:PsiDirectoryNode" />
+              <item name="spring5-mvc-rest-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring5-mvc-rest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMvcRestful" type="462c0819:PsiDirectoryNode" />
+              <item name="spring5-mvc-rest-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -393,10 +463,10 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="SearchEverywhereHistoryKey" value="plugin&#9;ACTION&#9;WelcomeScreen.Plugins" />
+    <property name="SearchEverywhereHistoryKey" value="spring5-mvc-rest&#9;FILE&#9;file://C:/Users/kancl/Documents/roboczy/Repozytoria Git/SpringMvcRestful/spring5-mvc-rest.iml&#10;plugin&#9;ACTION&#9;WelcomeScreen.Plugins" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536968224148" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537147367938" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -405,6 +475,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -413,6 +484,10 @@
       <recent name="netherwulf.springframework.api.v1.mapper" />
       <recent name="netherwulf.springfamework.controllers.v1" />
       <recent name="netherwulf.springfamework.services" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kancl\Documents\roboczy\Repozytoria Git\SpringMvcRestful\rest-model\src\main\resources\xsd" />
+      <recent name="C:\Users\kancl\Documents\roboczy\Repozytoria Git\SpringMvcRestful\SpringMvcRestfulApp" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="netherwulf.springframework.controllers" />
@@ -427,6 +502,11 @@
     </key>
   </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -437,34 +517,27 @@
         </RuleState>
       </list>
     </option>
+    <option name="contentProportion" value="0.13419913" />
   </component>
-  <component name="RunManager" selected="JUnit.All in spring5-mvc-rest">
-    <configuration name="All in spring5-mvc-rest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring5-mvc-rest" />
+  <component name="RunManager" selected="Spring Boot.Spring5MvcRestApplication (1)">
+    <configuration name="All in spring5-mvc-rest-app" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5-mvc-rest-app" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerControllerTest.testDeleteCustomer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring5-mvc-rest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="netherwulf.springframework.controllers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="netherwulf.springframework.controllers.v1" />
-      <option name="MAIN_CLASS_NAME" value="netherwulf.springframework.controllers.v1.CustomerControllerTest" />
-      <option name="METHOD_NAME" value="testDeleteCustomer" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="All in spring5-mvc-rest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringMvcRestful" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="CustomerControllerTest.testGetCustomerById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring5-mvc-rest" />
+      <module name="SpringMvcRestful" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="netherwulf.springframework.controllers.v1.*" />
@@ -480,7 +553,7 @@
       </method>
     </configuration>
     <configuration name="CustomerServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring5-mvc-rest" />
+      <module name="SpringMvcRestful" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="netherwulf.springframework.services.*" />
@@ -494,7 +567,7 @@
       </method>
     </configuration>
     <configuration name="netherwulf.springframework.controllers.v1 in spring5-mvc-rest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring5-mvc-rest" />
+      <module name="SpringMvcRestful" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="netherwulf.springframework.controllers.v1.*" />
@@ -507,8 +580,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Spring5MvcRestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="spring5-mvc-rest" />
+    <configuration name="Spring5MvcRestApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring5-mvc-rest-app" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="netherwulf.springframework.Spring5MvcRestApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
@@ -516,20 +589,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.Spring5MvcRestApplication" />
-      <item itemvalue="JUnit.CustomerControllerTest.testDeleteCustomer" />
+      <item itemvalue="Spring Boot.Spring5MvcRestApplication (1)" />
       <item itemvalue="JUnit.CustomerServiceTest" />
       <item itemvalue="JUnit.All in spring5-mvc-rest" />
       <item itemvalue="JUnit.netherwulf.springframework.controllers.v1 in spring5-mvc-rest" />
       <item itemvalue="JUnit.CustomerControllerTest.testGetCustomerById" />
+      <item itemvalue="JUnit.All in spring5-mvc-rest-app" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in spring5-mvc-rest-app" />
         <item itemvalue="JUnit.All in spring5-mvc-rest" />
         <item itemvalue="JUnit.CustomerControllerTest.testGetCustomerById" />
         <item itemvalue="JUnit.netherwulf.springframework.controllers.v1 in spring5-mvc-rest" />
         <item itemvalue="JUnit.CustomerServiceTest" />
-        <item itemvalue="JUnit.CustomerControllerTest.testDeleteCustomer" />
       </list>
     </recent_temporary>
   </component>
@@ -549,13 +622,14 @@
       <workItem from="1536833119830" duration="597000" />
       <workItem from="1536872010193" duration="7841000" />
       <workItem from="1536918367056" duration="5797000" />
+      <workItem from="1536997435510" duration="1106000" />
+      <workItem from="1537101753232" duration="6955000" />
+      <workItem from="1537144747293" duration="1287000" />
+      <workItem from="1537146049311" duration="1306000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CustomerControllerTest_testDeleteCustomer - 2018.09.13 at 01h 20m 05s.xml">
-      <configuration name="CustomerControllerTest.testDeleteCustomer" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CustomerServiceTest - 2018.09.13 at 01h 32m 14s.xml">
       <configuration name="CustomerServiceTest" configurationId="JUnit" />
     </history-entry>
@@ -583,15 +657,17 @@
     <history-entry file="All_in_spring5-mvc-rest - 2018.09.15 at 01h 37m 31s.xml">
       <configuration name="All in spring5-mvc-rest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_spring5-mvc-rest-app - 2018.09.17 at 03h 14m 49s.xml">
+      <configuration name="All in spring5-mvc-rest-app" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38815000" />
+    <option name="totallyTimeSpent" value="49662000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17803837" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18496802" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -599,17 +675,18 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info id="Image Layers" order="7" />
+      <window_info anchor="bottom" id="Run Dashboard" weight="0.329718" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Messages" order="2" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.39479393" />
+      <window_info anchor="bottom" id="Messages" order="2" sideWeight="0.49733475" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49946696" visible="true" weight="0.39479393" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.39479393" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
@@ -618,7 +695,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.10501066" />
+      <window_info active="true" anchor="right" id="Maven Projects" order="5" visible="true" weight="0.10501066" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -632,383 +709,281 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/target/classes/netherwulf/springfamework/api/v1/mapper/CategoryMapperImpl.class" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/spring5mvcrest/Spring5MvcRestApplicationTests.java">
+    <entry file="file://$PROJECT_DIR$/SpringMvcRestfulApp/src/main/java/netherwulf/springframework/services/VendorServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/SpringMvcRestfulApp/src/main/java/netherwulf/springframework/api/v1/mapper/VendorMapper.java" />
+    <entry file="file://$PROJECT_DIR$/SpringMvcRestfulApp/src/main/java/netherwulf/springframework/api/v1/model/CategoryDTO.java" />
+    <entry file="file://$PROJECT_DIR$/SpringMvcRestfulApp/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/mvnw">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
+        <state relative-caret-position="-480" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/api/v1/mapper/CategoryMapperTest.java">
+    <entry file="file://$PROJECT_DIR$/SpringMvcRestfulApp/src/main/java/netherwulf/springframework/services/CategoryServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
+        <state relative-caret-position="-60">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/services/CategoryServiceTest.java">
+    <entry file="file://$PROJECT_DIR$/spring5-mvc-rest-app/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="59" column="37" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.0.5.RELEASE/spring-data-jpa-2.0.5.RELEASE.jar!/org/springframework/data/jpa/repository/JpaRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/generated-sources/annotations/netherwulf/springframework/api/v1/mapper/CustomerMapperImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/domain/Category.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/controllers/v1/AbstractRestControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="48" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/services/CategoryServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/services/CustomerServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/services/ResourceNotFoundException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="69" selection-start-line="20" selection-start-column="69" selection-end-line="20" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/controllers/RestResponseEntityExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="105" selection-start-line="17" selection-start-column="105" selection-end-line="17" selection-end-column="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/domain/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/domain/Vendor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/services/CategoryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/services/CustomerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/repositories/CustomerRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="75" selection-start-line="5" selection-start-column="75" selection-end-line="5" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/repositories/VendorRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="68" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/repositories/CategoryRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/services/CustomerServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/controllers/v1/CategoryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/Spring5MvcRestApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/api/v1/mapper/CustomerMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/services/CustomerServiceImplIT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="49" column="65" selection-start-line="49" selection-start-column="65" selection-end-line="49" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/bootstrap/Bootstrap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="103" column="43" selection-start-line="103" selection-start-column="43" selection-end-line="103" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/api/v1/mapper/CategoryMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/api/v1/mapper/VendorMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/api/v1/mapper/VendorMapperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/api/v1/model/VendorListDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/api/v1/model/CategoryDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/api/v1/model/CategoryListDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/api/v1/model/CustomerListDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/services/VendorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/controllers/v1/VendorControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="51" column="34" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/services/VendorServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/services/VendorServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-466">
-          <caret line="117" column="46" selection-start-line="117" selection-start-column="46" selection-end-line="117" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/config/SwaggerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/api/v1/mapper/CustomerMapperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/api/v1/model/CustomerDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="87" selection-start-line="16" selection-start-column="87" selection-end-line="16" selection-end-column="87" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/api/v1/model/VendorDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="67" selection-start-line="13" selection-start-column="67" selection-end-line="13" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/controllers/v1/VendorController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="58" column="108" selection-start-line="58" selection-start-column="108" selection-end-line="58" selection-end-column="108" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#729#730#0" expanded="true" />
-            <element signature="e#781#782#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/controllers/v1/CustomerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="25" column="101" selection-start-line="25" selection-start-column="101" selection-end-line="25" selection-end-column="101" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1931#1932#0" expanded="true" />
-            <element signature="e#1985#1986#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="77" column="42" selection-start-line="77" selection-start-column="42" selection-end-line="77" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/controllers/v1/CategoryControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="77" column="51" selection-start-line="77" selection-start-column="51" selection-end-line="77" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/controllers/v1/CustomerControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="125" column="51" selection-start-line="125" selection-start-column="51" selection-end-line="125" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-60">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-510" />
+        <state relative-caret-position="660">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/api/v1/mapper/CategoryMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/api/v1/mapper/CustomerMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/api/v1/mapper/VendorMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/api/v1/model/CategoryDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/api/v1/model/CatorgoryListDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/api/v1/model/VendorDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/api/v1/model/VendorListDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rest-model/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rest-model/src/main/resources/xsd/customer.xsd">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/bootstrap/Bootstrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/controllers/RestResponseEntityExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/controllers/v1/CategoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/controllers/v1/CustomerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/controllers/v1/VendorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/domain/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/domain/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/domain/Vendor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/repositories/CategoryRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/repositories/CustomerRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5-mvc-rest-app/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/repositories/VendorRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/services/CategoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/services/CustomerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/services/ResourceNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/services/VendorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/services/VendorServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5-mvc-rest-app/src/test/java/netherwulf/springframework/api/v1/mapper/CategoryMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5-mvc-rest-app/src/test/java/netherwulf/springframework/api/v1/mapper/CustomerMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5-mvc-rest-app/src/test/java/netherwulf/springframework/api/v1/mapper/VendorMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5-mvc-rest-app/src/test/java/netherwulf/springframework/controllers/v1/AbstractRestControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5-mvc-rest-app/src/test/java/netherwulf/springframework/controllers/v1/CategoryControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5-mvc-rest-app/src/test/java/netherwulf/springframework/controllers/v1/CustomerControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5-mvc-rest-app/src/test/java/netherwulf/springframework/controllers/v1/VendorControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5-mvc-rest-app/src/test/java/netherwulf/springframework/services/CategoryServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5-mvc-rest-app/src/test/java/netherwulf/springframework/services/CustomerServiceImplIT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5-mvc-rest-app/src/test/java/netherwulf/springframework/services/CustomerServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5-mvc-rest-app/src/test/java/netherwulf/springframework/services/VendorServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5-mvc-rest-app/src/test/java/netherwulf/springframework/spring5mvcrest/Spring5MvcRestApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/Spring5MvcRestApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/services/CategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/config/SwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5-mvc-rest-app/src/main/java/netherwulf/springframework/services/CustomerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+        </state>
       </provider>
     </entry>
   </component>

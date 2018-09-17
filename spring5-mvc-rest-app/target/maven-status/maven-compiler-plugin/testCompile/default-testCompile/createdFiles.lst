@@ -1,0 +1,12 @@
+netherwulf\springframework\controllers\v1\AbstractRestControllerTest.class
+netherwulf\springframework\services\CustomerServiceImplIT.class
+netherwulf\springframework\api\v1\mapper\VendorMapperTest.class
+netherwulf\springframework\controllers\v1\VendorControllerTest.class
+netherwulf\springframework\services\CategoryServiceTest.class
+netherwulf\springframework\api\v1\mapper\CategoryMapperTest.class
+netherwulf\springframework\api\v1\mapper\CustomerMapperTest.class
+netherwulf\springframework\controllers\v1\CategoryControllerTest.class
+netherwulf\springframework\controllers\v1\CustomerControllerTest.class
+netherwulf\springframework\services\CustomerServiceImplTest.class
+netherwulf\springframework\services\VendorServiceImplTest.class
+netherwulf\springframework\spring5mvcrest\Spring5MvcRestApplicationTests.class

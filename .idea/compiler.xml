@@ -2,7 +2,14 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile name="Annotation profile for SpringMvcRestful" enabled="true">
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="rest-model" />
+      </profile>
+      <profile name="Annotation profile for spring5-mvc-rest-parent" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -22,16 +29,22 @@
           <entry name="$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.3.RELEASE/spring-context-4.0.3.RELEASE.jar" />
           <entry name="$MAVEN_REPOSITORY$/joda-time/joda-time/2.9/joda-time-2.9.jar" />
         </processorPath>
-        <module name="spring5-mvc-rest" />
+        <module name="spring5-mvc-rest-app" />
+        <module name="SpringMvcRestfulApp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="spring5-mvc-rest" target="1.8" />
+      <module name="rest-model" target="1.8" />
+      <module name="spring5-mvc-rest-app" target="1.8" />
+      <module name="SpringMvcRestful" target="1.8" />
+      <module name="SpringMvcRestfulApp" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="spring5-mvc-rest" options="-Amapstruct.defaultComponentModel=spring" />
+      <module name="SpringMvcRestful" options="" />
+      <module name="SpringMvcRestfulApp" options="-Amapstruct.defaultComponentModel=spring" />
+      <module name="spring5-mvc-rest-app" options="-Amapstruct.defaultComponentModel=spring" />
     </option>
   </component>
 </project>

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: netherwulf.springframework.spring5mvcrest.Spring5MvcRestApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.619 s - in netherwulf.springframework.spring5mvcrest.Spring5MvcRestApplicationTests
